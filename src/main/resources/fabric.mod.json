@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "simplefov",
+  "version": "${version}",
+  "name": "SimpleFov",
+  "description": "Adjust your fov with keybinds!",
+  "authors": ["k1llm3sixy"],
+  "contact": {
+    "email": "k1llm3sixy@gmail.com",
+    "sources": "https://github.com/k1llm3sixy/SimpleFov",
+    "issues": "https://github.com/k1llm3sixy/SimpleFov/issues"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/simplefov/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.k1llm3sixy.simplefov.SimpleFov"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-language-kotlin": ">=${kotlin_loader_version}",
+    "fabric": "*",
+    "minecraft": ">=1.19"
+  }
+}
